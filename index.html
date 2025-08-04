@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oyelola Oluwasegun - Chelsea Fan Page</title>
+    <meta name="description" content="Welcome to Oyelola Oluwasegun Chelsea fan page - World Champions 2025!">
+    <meta name="author" content="Oyelola Oluwasegun">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="hero-section" id="home">
+        <div class="hero-background"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-slogan fade-in">
+                World Champions
+                <span class="hero-year">2025</span>
+            </h1>
+            <div class="hero-divider fade-in-delay"></div>
+            <p class="hero-subtitle fade-in-delay">The Blues Never Stop</p>
+            <button class="cta-button fade-in-delay-2" onclick="document.getElementById('view my projects').scrollIntoView({ behavior: 'smooth' })">
+                View my projects
+            </button>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Intro Section -->
+    <section class="intro-section" id="intro">
+        <div class="container">
+            <h2 class="section-title fade-in">Welcome to the Home of Champions! 👋</h2>
+            <div class="intro-card fade-in-delay">
+                <p class="intro-text">
+                    Welcome to <strong>Oyelola Oluwasegun</strong> Chelsea fan page, 
+                    your home of trophies and arsenal fans wanna-be club.
+                </p>
+                <p class="intro-humor">If wishes were horses, LMAO! 😂</p>
+            </div>
+            <div class="badges fade-in-delay-2">
+                <span class="badge">🏆 Champions League Winners</span>
+                <span class="badge">⚽ Premier League Legends</span>
+                <span class="badge">💙 Blue Pride</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profile Section -->
+    <section class="profile-section" id="about">
+        <div class="container">
+            <h2 class="section-title fade-in">About Me 🙋‍♂️</h2>
+            <div class="section-divider"></div>
+            
+            <div class="profile-grid">
+                <!-- Profile Card -->
+                <div class="profile-card fade-in-delay">
+                    <div class="profile-image-container">
+                        <div class="profile-image" id="profileImage">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                    <label for="profileUpload" class="upload-btn">
+                        <i class="fas fa-upload"></i>
+                        Upload Profile Picture
+                    </label>
+                    <input type="file" id="profileUpload" accept="image/*" style="display: none;">
+                    
+                    <div class="profile-info">
+                        <div class="info-item">
+                            <i class="fas fa-heart"></i>
+                            <span>Favourite Color: <strong>Blue</strong></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hobbies & Goals -->
+                <div class="hobbies-goals fade-in-delay-2">
+                    <div class="hobbies-card">
+                        <h3 class="card-title">
+                            <span class="emoji">🎯</span>
+                            My Hobbies
+                        </h3>
+                        <div class="hobbies-list">
+                            <div class="hobby-item">
+                                <span class="hobby-icon">⚽</span>
+                                <span>Playing Football</span>
+                            </div>
+                            <div class="hobby-item">
+                                <span class="hobby-icon">💬</span>
+                                <span>Football Banter with Friends</span>
+                            </div>
+                            <div class="hobby-item">
+                                <span class="hobby-icon">🎵</span>
+                                <span>Good Music</span>
+                            </div>
+                            <div class="hobby-item">
+                                <span class="hobby-icon">✈️</span>
+                                <span>Travelling</span>
+                            </div>
+                            <div class="hobby-item">
+                                <span class="hobby-icon">💻</span>
+                                <span>Web Designing</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="goals-card">
+                        <h3 class="card-title">
+                            <i class="fas fa-target"></i>
+                            My Goal
+                        </h3>
+                        <p class="goal-text">
+                            I aspire to become a leading <strong>Frontend Web Developer</strong> for 
+                            football media houses, combining sleek designs with seamless fan experiences.
+                        </p>
+                        <div class="goal-quote">
+                            <p>"Creating digital experiences that bring football fans closer to the beautiful game." ⚽</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fan Signup Form -->
+    <section class="signup-section" id="signup">
+        <div class="container">
+            <div class="signup-header fade-in">
+                <h2 class="section-title">Join the Chelsea Family 💙</h2>
+                <p class="signup-subtitle">Become part of the greatest football community in the world!</p>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="signup-form-container fade-in-delay">
+                <form class="signup-form" id="signupForm">
+                    <h3 class="form-title">Sign Up & Share Your Chelsea Love! ⚽</h3>
+                    
+                    <div class="form-group">
+                        <label for="fullName">
+                            <i class="fas fa-user"></i>
+                            Full Name
+                        </label>
+                        <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">
+                            <i class="fas fa-envelope"></i>
+                            Email Address
+                        </label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="whyChelsea">
+                            <i class="fas fa-comment"></i>
+                            Why do you love Chelsea?
+                        </label>
+                        <textarea id="whyChelsea" name="whyChelsea" placeholder="Tell us your Chelsea story... What makes you bleed blue? Share your passion, favorite moments, or what Chelsea means to you!" required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn" id="submitBtn">
+                        <i class="fas fa-paper-plane"></i>
+                        Join the Chelsea Family
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="footer-content">
+            <div class="container">
+                <div class="footer-header">
+                    <h3>Let's Connect! 🤝</h3>
+                    <p>Ready to talk football, web development, or just say hello?</p>
+                    <div class="footer-divider"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <a href="tel:+2348139335680" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h4>Phone</h4>
+                        <p>+2348139335680</p>
+                    </a>
+
+                    <a href="mailto:oyelola.oluwasegun@gmail.com" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h4>Email</h4>
+                        <p>oyelola.oluwasegun@gmail.com</p>
+                    </a>
+
+                    <a href="https://github.com/oyelola24" target="_blank" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h4>GitHub</h4>
+                        <p>github.com/oyelola24</p>
+                    </a>
+                </div>
+
+                <div class="social-section">
+                    <h4>Follow the Blues Journey 💙</h4>
+                    <div class="social-icons">
+                        <div class="social-icon">⚽</div>
+                        <div class="social-icon">💻</div>
+                        <div class="social-icon">🎵</div>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <p>© 2025 Oyelola Oluwasegun. Built with <i class="fas fa-heart"></i> and Chelsea Pride.</p>
+                    <p>Made with HTML + CSS + JavaScript • KTBFFH 💙 • World Champions 2025 🏆</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Back to Top Button -->
+        <button class="back-to-top" id="backToTop" onclick="scrollToTop()">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <div class="toast-content">
+            <i class="fas fa-check-circle"></i>
+            <div class="toast-text">
+                <strong>Welcome to the Chelsea Family! 💙</strong>
+                <p>Your passion for Chelsea has been noted. KTBFFH!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
